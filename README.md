@@ -11,6 +11,7 @@ Path: http://localhost:8080/app/getProductFromDataBase?name=Apple
 Result:
 {"name":"Apple","type":"FRUITS","price":2}
 
+-------------------------------------------
 
 POST /app/basket/addToBasket
 
@@ -21,6 +22,7 @@ Add product from our database to basket. The product is selected by name.
 
 Path: http://localhost:8080/app/basket/addToBasket?name=Apple
 
+-------------------------------------------
 
 GET /app/basket/getProductsFromBasket
 
@@ -35,6 +37,8 @@ Result:
     "price": 5
   }
 ]
+
+-------------------------------------------
 
 GET app/basket/generateReceipt
 
